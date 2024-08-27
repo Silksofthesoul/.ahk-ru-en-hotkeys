@@ -52,11 +52,11 @@ check_en_ru_by_window_id(WinID) {
 
   if(store_layout <> InputLocaleID) {
     if(InputLocaleID = Locale_En) {
-      Menu tray, icon, .\__2.ico 
+      Menu tray, icon, %A_ScriptDir%\__2.ico
     } else if(InputLocaleID = Locale_Ru) {
-      Menu tray, icon, .\__2.ico 
+      Menu tray, icon, %A_ScriptDir%\__2.ico
     } else {
-      Menu tray, icon, .\__2.ico
+      Menu tray, icon, %A_ScriptDir%\__2.ico
     }
   }
 
